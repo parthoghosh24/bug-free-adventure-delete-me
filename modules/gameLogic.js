@@ -21,7 +21,7 @@ class GameLogic {
                 alert(`Player ${this.currentPlayer} wins!`);
             } else if (this.checkForDraw()) {
                 this.gameOver = true;
-                alert("It's a draw!");
+                alert("It's a tie!");
             } else {
                 this.switchPlayer();
                 this.turnCount++;
